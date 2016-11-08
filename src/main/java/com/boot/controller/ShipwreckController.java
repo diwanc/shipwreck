@@ -15,7 +15,7 @@ import java.util.List;
 @RequestMapping("api/v1/")
 public class ShipwreckController {
 
-    @Autowired
+    
     private ShipwreckRepository shipwreckRepository;
 
     @RequestMapping(value = "shipwrecks", method = RequestMethod.GET)
